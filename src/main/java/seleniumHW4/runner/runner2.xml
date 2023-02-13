@@ -1,0 +1,24 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Edit">
+
+
+
+    <test name="Edit Test">
+        <parameter name="name" value="admin"> </parameter>
+        <parameter name="psswrd" value="pass"> </parameter>
+        <parameter name="patientName" value="Belford, Phil"> </parameter>
+        <parameter name="message" value="This is for testing"> </parameter>
+
+
+        <classes>
+
+            <class name="seleniumHW4.tests.TC2Test"> </class>
+
+        </classes>
+
+    </test>
+
+
+</suite>

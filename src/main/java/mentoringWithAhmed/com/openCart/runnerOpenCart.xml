@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Open Cart Test">
+
+    <test name="Open Cart Test">
+        <parameter name="username" value="demo"> </parameter>
+        <parameter name="passwrd" value="demo"> </parameter>
+        <parameter name="num1" value="109"> </parameter>
+        <parameter name="num2" value="85.5K"> </parameter>
+        <parameter name="num3" value="8.1K"> </parameter>
+        <parameter name="num4" value="78"> </parameter>
+        <parameter name="fName" value="Jildiz"> </parameter>
+        <parameter name="lName" value="Maks"> </parameter>
+        <parameter name="eMail" value="jildiz@gmail.com"> </parameter>
+        <parameter name="number" value="7338906737"> </parameter>
+        <parameter name="psswrd" value="privetStrana"> </parameter>
+        <parameter name="confirm" value="privetStrana"> </parameter>
+        <parameter name="expectedMssge" value="Warning: You do not have permission to modify customers!"> </parameter>
+
+        <classes>
+
+            <class name="mentoringWithAhmed.com.openCart.tests.OpenCartTest"> </class>
+
+        </classes>
+
+    </test>
+
+
+</suite>
